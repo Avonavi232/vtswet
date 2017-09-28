@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f77b647-efbb-4014-856a-a914c8280ecf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vt/page-home.php" afterPath="$PROJECT_DIR$/wp-content/themes/vt/page-home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vt/src/gallery.html" afterPath="$PROJECT_DIR$/wp-content/themes/vt/src/gallery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/vt/src/style/partials/style.less" afterPath="$PROJECT_DIR$/wp-content/themes/vt/src/style/partials/style.less" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,11 +27,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/vt/src/style/partials/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="487" column="1" lean-forward="false" selection-start-line="487" selection-start-column="1" selection-end-line="487" selection-end-column="1" />
+            <state relative-caret-position="216">
+              <caret line="495" column="0" lean-forward="true" selection-start-line="495" selection-start-column="0" selection-end-line="495" selection-end-column="0" />
               <folding>
                 <element signature="e#2424#2966#0" expanded="false" />
                 <element signature="e#7525#7579#0" expanded="false" />
@@ -39,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="gallery.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="gallery.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/vt/src/gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="37" selection-end-column="30" />
+            <state relative-caret-position="360">
+              <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -181,15 +183,15 @@
         <option value="$PROJECT_DIR$/wp-content/themes/vt/src/style/libs.less" />
         <option value="$PROJECT_DIR$/wp-content/themes/vt/src/templates/header.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/vt/src/gallery.html" />
         <option value="$PROJECT_DIR$/wp-content/themes/vt/src/js/main.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/vt/src/js/partials/spec_portfolio.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/vt/src/js/partials/gallery_sort.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/vt/functions/vt-meta-boxes.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/vt/page-portfolio.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/vt/src/style/partials/style.less" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/wp-content/themes/vt/page-home.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vt/src/style/partials/style.less" />
+        <option value="$PROJECT_DIR$/wp-content/themes/vt/src/gallery.html" />
       </list>
     </option>
   </component>
@@ -213,7 +215,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="960" />
     <option name="height" value="1080" />
   </component>
@@ -287,12 +289,12 @@
       <workItem from="1506448060536" duration="10678000" />
       <workItem from="1506534497795" duration="11865000" />
       <workItem from="1506624969734" duration="65000" />
-      <workItem from="1506625083841" duration="401000" />
+      <workItem from="1506625083841" duration="531000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59338000" />
+    <option name="totallyTimeSpent" value="59468000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -304,7 +306,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16328709" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -666,14 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vt/src/gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="37" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/vt/functions/vt-meta-boxes.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2784">
@@ -710,13 +704,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/vt/src/style/partials/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="487" column="1" lean-forward="false" selection-start-line="487" selection-start-column="1" selection-end-line="487" selection-end-column="1" />
+        <state relative-caret-position="216">
+          <caret line="495" column="0" lean-forward="true" selection-start-line="495" selection-start-column="0" selection-end-line="495" selection-end-column="0" />
           <folding>
             <element signature="e#2424#2966#0" expanded="false" />
             <element signature="e#7525#7579#0" expanded="false" />
             <element signature="e#7599#7683#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vt/src/gallery.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="15" column="20" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
