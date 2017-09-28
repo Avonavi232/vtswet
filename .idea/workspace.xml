@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f77b647-efbb-4014-856a-a914c8280ecf" name="Default" comment="" />
+    <list default="true" id="4f77b647-efbb-4014-856a-a914c8280ecf" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +17,7 @@
       <file leaf-file-name="page-home.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/vt/page-home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
+            <state relative-caret-position="24">
               <caret line="95" column="34" lean-forward="false" selection-start-line="95" selection-start-column="34" selection-end-line="95" selection-end-column="34" />
               <folding>
                 <element signature="e#1106#1111#0#PHP" expanded="false" />
@@ -26,7 +29,7 @@
       <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/vt/src/style/partials/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
+            <state relative-caret-position="10608">
               <caret line="487" column="1" lean-forward="false" selection-start-line="487" selection-start-column="1" selection-end-line="487" selection-end-column="1" />
               <folding>
                 <element signature="e#2424#2966#0" expanded="false" />
@@ -40,7 +43,7 @@
       <file leaf-file-name="gallery.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/vt/src/gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="327">
+            <state relative-caret-position="384">
               <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="37" selection-end-column="30" />
               <folding />
             </state>
@@ -50,7 +53,7 @@
       <file leaf-file-name="gallery_sort.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/vt/src/js/partials/gallery_sort.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="596">
+            <state relative-caret-position="696">
               <caret line="63" column="34" lean-forward="false" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
               <folding>
                 <element signature="e#388#1203#0" expanded="false" />
@@ -64,7 +67,7 @@
       <file leaf-file-name="vt-meta-boxes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/vt/functions/vt-meta-boxes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
+            <state relative-caret-position="2784">
               <caret line="116" column="67" lean-forward="false" selection-start-line="116" selection-start-column="67" selection-end-line="116" selection-end-column="67" />
               <folding />
             </state>
@@ -91,20 +94,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="libs.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/vt/src/style/libs.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="1776">
               <caret line="74" column="10" lean-forward="false" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
               <folding />
             </state>
@@ -114,13 +107,9 @@
       <file leaf-file-name="page-portfolio.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/vt/page-portfolio.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
+            <state relative-caret-position="2136">
               <caret line="89" column="18" lean-forward="false" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
-              <folding>
-                <element signature="e#1082#1525#0#HTML" expanded="false" />
-                <element signature="e#1542#4120#0#HTML" expanded="false" />
-                <element signature="e#1920#1959#0#HTML" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -165,6 +154,9 @@
       <dir>C:\WebServers\home\localhost\www\vtswet.loc\wp-content\themes\vt</dir>
     </dirStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -198,6 +190,7 @@
         <option value="$PROJECT_DIR$/wp-content/themes/vt/page-portfolio.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/vt/src/style/partials/style.less" />
         <option value="$PROJECT_DIR$/wp-content/themes/vt/page-home.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -221,10 +214,11 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="960" />
     <option name="height" value="1080" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -240,6 +234,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -247,30 +243,10 @@
               <item name="vtswet.loc" type="b2602c69:ProjectViewProjectNode" />
               <item name="vtswet.loc" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="vtswet.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vtswet.loc" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="vtswet.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vtswet.loc" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="vtswet.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vtswet.loc" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="wp-content" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="vt" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -311,11 +287,13 @@
       <workItem from="1505639430690" duration="15645000" />
       <workItem from="1506448060536" duration="10678000" />
       <workItem from="1506534497795" duration="11865000" />
+      <workItem from="1506624969734" duration="65000" />
+      <workItem from="1506625083841" duration="45000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58872000" />
+    <option name="totallyTimeSpent" value="58982000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -327,16 +305,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16008538" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16328709" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.49786553" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.50426894" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26451612" sideWeight="0.49573106" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26344085" sideWeight="0.49573106" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -364,21 +343,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vt/page-home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2472">
-          <caret line="103" column="57" lean-forward="false" selection-start-line="103" selection-start-column="56" selection-end-line="103" selection-end-column="57" />
-          <folding>
-            <element signature="e#1106#1111#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/vt/page-contacts.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1776">
           <caret line="74" column="99" lean-forward="false" selection-start-line="74" selection-start-column="99" selection-end-line="74" selection-end-column="99" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -386,35 +354,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2096#2407#1#PHP" expanded="false" />
-            <element signature="e#2417#2719#1#PHP" expanded="false" />
-            <element signature="e#2729#3059#1#PHP" expanded="false" />
-            <element signature="e#3069#3404#1#PHP" expanded="false" />
-            <element signature="e#3414#3723#1#PHP" expanded="false" />
-            <element signature="e#3733#4051#1#PHP" expanded="false" />
-            <element signature="e#4377#4797#1#PHP" expanded="false" />
-            <element signature="e#4815#5130#1#PHP" expanded="false" />
-            <element signature="e#5187#5596#1#PHP" expanded="false" />
-            <element signature="e#5627#6036#1#PHP" expanded="false" />
-            <element signature="e#6046#6337#1#PHP" expanded="false" />
-            <element signature="e#6347#6618#1#PHP" expanded="false" />
-            <element signature="e#6628#6883#1#PHP" expanded="false" />
-            <element signature="e#6924#7237#1#PHP" expanded="false" />
-            <element signature="e#7247#7545#1#PHP" expanded="false" />
-            <element signature="e#7555#7896#1#PHP" expanded="false" />
-            <element signature="e#7906#8363#1#PHP" expanded="false" />
-            <element signature="e#8373#10091#1#PHP" expanded="false" />
-            <element signature="e#8748#9213#1#PHP" expanded="false" />
-            <element signature="e#10129#11738#1#PHP" expanded="false" />
-            <element signature="e#10476#10945#1#PHP" expanded="false" />
-            <element signature="e#10963#11330#1#PHP" expanded="false" />
-            <element signature="e#11348#11714#1#PHP" expanded="false" />
-            <element signature="e#11782#12964#1#PHP" expanded="false" />
-            <element signature="e#12118#12587#1#PHP" expanded="false" />
-            <element signature="e#13008#15444#1#PHP" expanded="false" />
-            <element signature="e#13450#13916#1#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -432,11 +371,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="12" column="42" lean-forward="false" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-          <folding>
-            <element signature="e#1082#1525#0#HTML" expanded="false" />
-            <element signature="e#1542#4120#0#HTML" expanded="false" />
-            <element signature="e#1920#1959#0#HTML" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -462,7 +397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="17" column="112" lean-forward="false" selection-start-line="17" selection-start-column="112" selection-end-line="17" selection-end-column="112" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -470,7 +404,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
           <caret line="42" column="63" lean-forward="false" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -490,12 +423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2688">
           <caret line="128" column="33" lean-forward="false" selection-start-line="128" selection-start-column="24" selection-end-line="128" selection-end-column="33" />
-          <folding>
-            <element signature="e#650#2789#0#PHP" expanded="false" />
-            <element signature="e#992#2782#1#PHP" expanded="false" />
-            <element signature="n#vt_widgets_init#0;n#!!top" expanded="false" />
-            <element signature="n#vt_styles#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -538,7 +465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="53" column="47" lean-forward="false" selection-start-line="53" selection-start-column="47" selection-end-line="53" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -590,9 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding>
-            <element signature="e#2506#3658#0#HTML" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -607,7 +530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="49" column="20" lean-forward="true" selection-start-line="49" selection-start-column="20" selection-end-line="52" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -615,35 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="160" column="0" lean-forward="true" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
-          <folding>
-            <element signature="e#2096#2407#1#PHP" expanded="false" />
-            <element signature="e#2417#2719#1#PHP" expanded="false" />
-            <element signature="e#2729#3059#1#PHP" expanded="false" />
-            <element signature="e#3069#3404#1#PHP" expanded="false" />
-            <element signature="e#3414#3723#1#PHP" expanded="false" />
-            <element signature="e#3733#4051#1#PHP" expanded="false" />
-            <element signature="e#4377#4797#1#PHP" expanded="false" />
-            <element signature="e#4815#5130#1#PHP" expanded="false" />
-            <element signature="e#5187#5596#1#PHP" expanded="false" />
-            <element signature="e#5627#6036#1#PHP" expanded="false" />
-            <element signature="e#6046#6337#1#PHP" expanded="false" />
-            <element signature="e#6347#6618#1#PHP" expanded="false" />
-            <element signature="e#6628#6883#1#PHP" expanded="false" />
-            <element signature="e#6924#7237#1#PHP" expanded="false" />
-            <element signature="e#7247#7545#1#PHP" expanded="false" />
-            <element signature="e#7555#7896#1#PHP" expanded="false" />
-            <element signature="e#7906#8363#1#PHP" expanded="false" />
-            <element signature="e#8373#10091#1#PHP" expanded="false" />
-            <element signature="e#8748#9213#1#PHP" expanded="false" />
-            <element signature="e#10129#11738#1#PHP" expanded="false" />
-            <element signature="e#10476#10945#1#PHP" expanded="false" />
-            <element signature="e#10963#11330#1#PHP" expanded="false" />
-            <element signature="e#11348#11714#1#PHP" expanded="false" />
-            <element signature="e#11782#12964#1#PHP" expanded="false" />
-            <element signature="e#12118#12587#1#PHP" expanded="false" />
-            <element signature="e#13008#15444#1#PHP" expanded="false" />
-            <element signature="e#13450#13916#1#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -651,7 +544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
           <caret line="67" column="18" lean-forward="true" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,7 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
           <caret line="0" column="4430" lean-forward="false" selection-start-line="0" selection-start-column="4430" selection-end-line="0" selection-end-column="4430" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,11 +579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding>
-            <element signature="n#!!block;n#getOffset#0" expanded="false" />
-            <element signature="n#!!block;n#offerDescrPicHeight#0" expanded="false" />
-            <element signature="n#!!block;n#menuListHeightFix#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -707,12 +593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="116" column="22" lean-forward="false" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
-          <folding>
-            <element signature="e#650#2789#0#PHP" expanded="false" />
-            <element signature="e#992#2782#1#PHP" expanded="false" />
-            <element signature="n#vt_widgets_init#0;n#!!top" expanded="false" />
-            <element signature="n#vt_styles#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -720,7 +600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1454">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -742,7 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,7 +633,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
+        <state relative-caret-position="1776">
           <caret line="74" column="10" lean-forward="false" selection-start-line="74" selection-start-column="10" selection-end-line="74" selection-end-column="10" />
           <folding />
         </state>
@@ -779,7 +657,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/vt/src/js/partials/gallery_sort.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="596">
+        <state relative-caret-position="696">
           <caret line="63" column="34" lean-forward="false" selection-start-line="63" selection-start-column="34" selection-end-line="63" selection-end-column="34" />
           <folding>
             <element signature="e#388#1203#0" expanded="false" />
@@ -791,7 +669,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/vt/src/gallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
+        <state relative-caret-position="384">
           <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="37" selection-end-column="30" />
           <folding />
         </state>
@@ -799,7 +677,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/vt/functions/vt-meta-boxes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
+        <state relative-caret-position="2784">
           <caret line="116" column="67" lean-forward="false" selection-start-line="116" selection-start-column="67" selection-end-line="116" selection-end-column="67" />
           <folding />
         </state>
@@ -807,19 +685,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/vt/page-portfolio.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
+        <state relative-caret-position="2136">
           <caret line="89" column="18" lean-forward="false" selection-start-line="89" selection-start-column="18" selection-end-line="89" selection-end-column="18" />
-          <folding>
-            <element signature="e#1082#1525#0#HTML" expanded="false" />
-            <element signature="e#1542#4120#0#HTML" expanded="false" />
-            <element signature="e#1920#1959#0#HTML" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/vt/src/style/partials/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
+        <state relative-caret-position="10608">
           <caret line="487" column="1" lean-forward="false" selection-start-line="487" selection-start-column="1" selection-end-line="487" selection-end-column="1" />
           <folding>
             <element signature="e#2424#2966#0" expanded="false" />
@@ -829,9 +703,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/vt/page-home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
+        <state relative-caret-position="24">
           <caret line="95" column="34" lean-forward="false" selection-start-line="95" selection-start-column="34" selection-end-line="95" selection-end-column="34" />
           <folding>
             <element signature="e#1106#1111#0#PHP" expanded="false" />
