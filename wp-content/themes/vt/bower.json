@@ -1,0 +1,25 @@
+{
+  "name": "embedi_front_loc",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "me"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^3.2.1",
+    "normalize-css": "normalize.css#^7.0.0",
+    "fotorama": "^4.6.4",
+    "components-font-awesome": "^4.7.0",
+    "slick-carousel": "^1.8.0",
+    "jquery-ui": "^1.12.1"
+  }
+}
