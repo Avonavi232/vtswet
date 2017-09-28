@@ -109,7 +109,8 @@ if (ot_get_option('vt_about_text')){
                 ?>
             </div>
         </div>
-        
+
+
     </section>
     <section id="proposal">
         <div class="wrapper">

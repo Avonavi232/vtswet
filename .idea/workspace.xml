@@ -13,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="page-home.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="page-home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/vt/page-home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="111" column="8" lean-forward="false" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
+            <state relative-caret-position="432">
+              <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
               <folding>
                 <element signature="e#1106#1111#0#PHP" expanded="false" />
               </folding>
@@ -25,10 +25,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/vt/src/style/partials/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10608">
+            <state relative-caret-position="24">
               <caret line="487" column="1" lean-forward="false" selection-start-line="487" selection-start-column="1" selection-end-line="487" selection-end-column="1" />
               <folding>
                 <element signature="e#2424#2966#0" expanded="false" />
@@ -213,7 +213,7 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="960" />
     <option name="height" value="1080" />
   </component>
@@ -287,12 +287,12 @@
       <workItem from="1506448060536" duration="10678000" />
       <workItem from="1506534497795" duration="11865000" />
       <workItem from="1506624969734" duration="65000" />
-      <workItem from="1506625083841" duration="189000" />
+      <workItem from="1506625083841" duration="401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59126000" />
+    <option name="totallyTimeSpent" value="59338000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -304,7 +304,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16328709" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -690,18 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/vt/src/style/partials/style.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10608">
-          <caret line="487" column="1" lean-forward="false" selection-start-line="487" selection-start-column="1" selection-end-line="487" selection-end-column="1" />
-          <folding>
-            <element signature="e#2424#2966#0" expanded="false" />
-            <element signature="e#7525#7579#0" expanded="false" />
-            <element signature="e#7599#7683#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -712,10 +700,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/vt/page-home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="111" column="8" lean-forward="false" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
+        <state relative-caret-position="432">
+          <caret line="112" column="0" lean-forward="false" selection-start-line="112" selection-start-column="0" selection-end-line="112" selection-end-column="0" />
           <folding>
             <element signature="e#1106#1111#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/vt/src/style/partials/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="487" column="1" lean-forward="false" selection-start-line="487" selection-start-column="1" selection-end-line="487" selection-end-column="1" />
+          <folding>
+            <element signature="e#2424#2966#0" expanded="false" />
+            <element signature="e#7525#7579#0" expanded="false" />
+            <element signature="e#7599#7683#0" expanded="false" />
           </folding>
         </state>
       </provider>
