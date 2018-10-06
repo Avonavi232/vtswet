@@ -1,0 +1,55 @@
+//= templates/header.html
+		
+		<section id="contacts">
+			<div class="wrapper">
+				<h2 class="contacts__title">Контакты</h2>
+				<div class="contacts__flex">
+					<div class="contacts__description">
+						<p class="contacts__description__text">Если Вам удобно, Вы можете написать (позвонить) мне: </p>
+						<ul class="contacts__list">
+							<li><i class="fa fa-check" aria-hidden="true"></i><a class="contacts__fromcontacts__item" href="tel:+79118360075">+7-911-836-00-75</a></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i><a class="contacts__fromcontacts__item" href="mailto:vasya.tswetkow@yandex.ru">E-mail</a></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i><a class="contacts__fromcontacts__item" href="https://vk.com/razrisyem" target="_blank">Вконтакте</a></li>
+							<li><i class="fa fa-check" aria-hidden="true"></i><a class="contacts__fromcontacts__item" href="https://instagram.com/tswet_art" target="_blank">Инстаграм</a></li>
+						</ul>
+
+						<p class="contacts__description__text margin-top text">При заказе граффити или художественного оформления работа будет выполнена в ближайшие сроки, если это города:</p>
+						<ul class="contacts__description__list">
+							<li>Санкт-Петербург</li>
+							<li>Москва</li>
+							<li>Кострома</li>
+						</ul>
+						<p class="contacts__description__text text">Также возможен выезд в любые города РФ
+и за рубеж.</p>
+					</div>
+					<div class="contacts__pic">
+						<img src="img/bg5.jpg" alt="background_pic">
+					</div>
+				</div>
+				<p class="contacts__minimal">Подписывайтесь на меня в социальный сетях!</p>
+				<div class="contacts__socials">
+					 <a class="contacts__socials__icon" href="https://instagram.com/vasyatswet/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+					 <a class="contacts__socials__icon" href="https://vk.com/razrisyem"><i class="fa fa-vk" aria-hidden="true"></i></a>
+				</div>
+			</div>
+		</section>
+
+//= templates/footer.html
+
+<script src="js/main.js"></script>
+		<script>
+			$(document).ready(function(){
+				
+				menuInit("contacts", "#201b1b");
+				headerFix();
+				
+				$(window).resize(function(){
+					headerFix();
+				});
+				
+				menuListHeightFix("#header", ".menuListHeightFixElement");
+				
+			});//ready end
+		</script>
+	</body>
+</html>

@@ -1,0 +1,136 @@
+.headings_news{
+  padding-top: 6.5rem;
+  color: @green;
+}
+
+#news-section{
+  background: url(../img/bg.jpg) repeat-Y;
+  background-size:auto;
+}
+
+#news{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.news{
+  &-container{
+    width: 75%;
+    padding: 0 ;
+    padding-right: 1.5rem;
+  }
+  &-item{
+    margin-bottom: 5rem;
+    &__date{
+      font-size: 1.6rem;
+      color: @black;
+      .regular;
+      margin-bottom: 2rem;
+    }
+    &__title{
+      display: inline-block;
+      margin-bottom: 2rem;
+      border-bottom: 1px solid transparent;
+    }
+    &__title a, &__title_link_not{
+      display: inline-block;
+      .light;
+      color: @black;
+      font-size: 3rem;
+    }
+    &__title:hover{
+      cursor: pointer;
+      border-bottom: 1px solid @black;
+    }
+    &__title_link_not:hover{
+      cursor: default;
+      border-bottom: 1px solid transparent;
+    }
+    &__image{
+      a{
+        display: block;
+      }
+      img{
+        display: block;
+        width: 100%;
+        height: auto;
+        .black;
+      }
+    }
+    &__excerpt, &__text{
+      .regular;
+      line-height: 1.4;
+      font-size: 2rem;
+      margin-top: 3rem;
+    }
+    &__readmore{
+      a{
+        margin-top: 3rem;
+        font-size: 2rem;
+        .regular;
+        color: @green;
+        display: inline-block;
+        border: 1px solid @green;
+        background-color: transparent;
+        text-align: center;
+        border-radius: 6px;
+        padding: 1.5rem;
+        transition: all .2s;
+      }
+      a:hover{
+        background-color: @green;
+        color: white;
+      }
+    }
+  }
+}
+
+#sidebar{
+  width: 25%;
+  padding: 0;
+  padding-left: 1.5rem;
+}
+.sidebar{
+  &__title{
+    font-size: 2.5rem;
+    .light;
+    text-align: left;
+  }
+  &__item{
+    margin-top: 1.5rem;
+    a{
+      font-size: 2rem;
+      .regular;
+      color: @green;
+      border-bottom: 1px solid transparent;
+    }
+    a:hover{
+      border-bottom: 1px solid @green;
+    }
+    .fa{
+      color: @green;
+      font-size: 1.5rem;
+      margin-right: .5rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #news{
+    flex-direction: column;
+  }
+  #sidebar{
+    width: 100%;
+    padding: 0;
+    margin-bottom: 3rem;
+    order: 1;
+  }
+  .news {
+    &-container {
+      order: 2;
+      width: 100%;
+      padding: 0;
+    }
+  }
+}
+

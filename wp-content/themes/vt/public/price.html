@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="theme-color" content="#ffffff">
+    <title>VTSWET.RU</title>
+
+    <link rel="stylesheet" href="css/libs.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
+    <link href="favicon-16x16.png" rel="shortcut icon" type="image/x-icon" >
+</head>
+
+<body>
+<div class="mainWrap">
+    <header id="header" >
+        <div class="wrapper">
+            <div class="header">
+                <div class="header__logo">
+                    <a href="index.html"><img src="img/logo.png" alt="logo" ></a>
+                </div>
+                <nav class="header__nav">
+                    <ul class="nav__list">
+                        <li class="menuListHeightFixElement active"><a class="nav__list__item" href="index.html">Главная</a></li>
+                        <li class="menuListHeightFixElement"><a class="nav__list__item" href="gallery.html">Портфолио</a></li>
+                        <li class="menuListHeightFixElement"><a class="nav__list__item" href="price.html">Цены</a></li>
+                        <li class="menuListHeightFixElement"><a class="nav__list__item" href="contacts.html">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="header__contacts">
+                    <p class="contacts__tel"><a href="tel:+79118360075">+7 (911) 836-00-75</a></p>
+                    <p class="contacts__email">
+                        <a href="mailto:vasya.tswetkow@yandex.ru">vasya.tswetkow@yandex.ru</a>
+                    </p>
+                </div>
+            </div>
+            <div class="menu_mobile">
+                <ul class="mobile__list">
+                    <li><a class="mobile__list__item" href="index.html">Главная</a></li>
+                    <li><a class="mobile__list__item" href="gallery.html">Портфолио</a></li>
+                    <li><a class="mobile__list__item" href="price.html">Цены</a></li>
+                    <li><a class="mobile__list__item" href="contacts.html">Контакты</a></li>
+                </ul>
+                <div class="menuToggle">
+                    <i class="menuToggle_icon fa fa-bars" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="header__absoluteFix"></div>
+    <!--&lt;!&ndash; блок кладется с помощью js ровно под header, чтоб контент не залазил под абсолютный хедер &ndash;&gt;-->
+		<section id="prices">
+			<div class="wrapper">
+				<h2 class="prices__title">цены на услуги</h2>
+				<div class="prices__flex">
+					<div class="prices__description">
+						<p class="prices__description__title text">Ввиду уникальности каждого рисунка, нет конкретной цены на художественную роспись. Но есть факторы, которые определяют конечную цену:</p>
+						<ul class="prices__list">
+							<li class="prices__list__item">
+								<h3 class="prices__list__title"><i class="fa fa-check" aria-hidden="true"></i>Сложность выбранного рисунка</h3>
+								<p class="prices__list__text text">(чем больше элементов в будущей картине, шире цветовая гамма, рисунок будет делаться в стиле реализм, тем выше цена за метр квадратный);</p>
+							</li>
+							<li class="prices__list__item">
+								<h3 class="prices__list__title"><i class="fa fa-check" aria-hidden="true"></i>Объем работы</h3>
+								<p class="prices__list__text text">(чем больше суммарная площадь будущей работы, тем меньше цена за метр квадратный);</p>
+							</li>
+							<li class="prices__list__item">
+								<h3 class="prices__list__title"><i class="fa fa-check" aria-hidden="true"></i>Высота стен</h3>
+								<p class="prices__list__text text">(использование лестниц, подъемников, строительных лесов);</p>
+							</li>
+							<li class="prices__list__item">
+								<h3 class="prices__list__title"><i class="fa fa-check" aria-hidden="true"></i>Подготовка стен</h3>
+								<p class="prices__list__text text">(нуждается ли стена в начальной подготовке - грунтовка, окрашивание (обычно это применительно к голому кирпичу).</p>
+							</li>
+						</ul>
+					</div>
+					<div class="prices__pic">
+						<img src="img/bg4.jpg" alt="background_pic">
+					</div>
+				</div>
+				<p class="prices__minimal">Минимальная стоимость - от <span>500 руб/м2</span></p>
+				<div class="prices__btn-container">
+					<button class="btn">Рассчитать стоимость</button> 
+				</div>
+			</div>
+		</section>
+<div id="price-modal" title="Рассчитать стоимость">
+	<form class="price_form">
+
+		<!-- Hidden required inputs -->
+		<input type="hidden" name="project_name" value="VTSWET.RU">
+		<input type="hidden" name="admin_email" value="alex-1994.94@mail.ru">
+		<input type="hidden" name="form_subject" value="Цены">
+		<!-- Hidden required inputs -->
+
+		<label for="price__form_name">Ваше имя</label>
+		<input type="text" name="name" id="price__form_name" placeholder="Введите текст">
+
+		<label for="price__form_phone">Ваш телефон</label>
+		<input type="text" name="phone" id="price__form_phone" placeholder="+7 (ххх) ххх-хх-хх">
+
+		<label for="price__form_email">Ваш e-mail</label>
+		<input type="text" name="email" id="price__form_email" placeholder="ivanovivan@mail.ru">
+
+		<label for="price__form_name">Расскажите подробнее о заказе</label>
+		<textarea type="text" name="name" id="price__form_name" placeholder="Введите текст"></textarea>
+		<div class="btn_container">
+			<input class="btn" type="submit" value="Отправить заявку">
+		</div>
+	</form>
+</div>
+
+<section id="footer">
+	<header id="header_in_footer">
+		<div class="wrapper">
+			<div class="header">
+				<div class="header__logo">
+					<a href="index.html"><img src="img/logo.png" alt="logo" ></a>
+				</div>
+				<nav class="header__nav">
+					<ul class="nav__list">
+						<li><a class="nav__list__item" href="index.html">Главная</a></li>
+						<li><a class="nav__list__item" href="gallery.html">Портфолио</a></li>
+						<li><a class="nav__list__item" href="price.html">Цены</a></li>
+						<li><a class="nav__list__item" href="contacts.html">Контакты</a></li>
+					</ul>
+				</nav>
+				<div class="header__contacts">
+					<p class="contacts__tel"><a href="tel:+79118360075">+7 (911) 836-00-75</a></p>
+					<p class="contacts__email">
+						<a href="mailto:vasya.tswetkow@yandex.ru">vasya.tswetkow@yandex.ru</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</header>
+	<footer>
+		<div class="wrapper">
+			<p class="owner">&copy Василий Цветков, 2017</p>
+			<div class="link_container">
+				<a class="link" href="https://instagram.com/tswet_art"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+				<a class="link" href="https://vk.com/razrisyem"><i class="fa fa-vk" aria-hidden="true"></i></a>
+			</div>
+
+			<div class="develop_container">
+				<h2 class="develop_title">Разработка сайта:</h2>
+				<a class="develop_item" href="https://vk.com/liubov_yakymchuk">Любовь Якимчук</a>
+				<a class="develop_item" href="https://vk.com/id94132474">Александр Иванов</a>
+			</div>
+		</div>
+	</footer>
+</section>
+</div>
+
+<script src="js/main.js"></script>
+		<script>
+
+		  $(document).ready(pageLoadedHandler); 
+			
+			function pageLoadedHandler() {
+				menuInit("prices", "#201b1b");
+				modalInit();
+				
+				$(".price_form").submit(function() { //Change
+					var th = $(this);
+					$.ajax({
+						type: "POST",
+						url: "mail.php", //Change
+						data: th.serialize()
+					}).done(function() {
+						alert("Thank you!");
+						setTimeout(function() {
+							// Done Functions
+							th.trigger("reset");
+						}, 1000);
+					});
+					return false;
+				});
+				
+				headerFix();
+				offerDescrPicHeight();
+				
+				$(window).resize(function(){
+					headerFix();
+					offerDescrPicHeight();
+				});
+				
+				menuListHeightFix("#header", ".menuListHeightFixElement");
+			};
+
+		</script>
+	</body>
+</html>
