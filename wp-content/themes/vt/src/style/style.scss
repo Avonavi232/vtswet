@@ -1,0 +1,19 @@
+/*!
+Theme Name: vtswet
+Theme URI: http://underscores.me/
+Author: Avonavi
+Author URI: https://vk.com/id94132474
+Description: Description
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: vt
+*/
+
+//Bootstrap
+@import 'partials/bs-config';
+
+//Custom styles
+@import 'partials/_margins';
+@import "../../bower_components/slick-carousel/slick/slick.css";
+@import 'partials/_custom';

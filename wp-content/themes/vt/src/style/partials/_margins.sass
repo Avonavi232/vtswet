@@ -1,0 +1,57 @@
+//Spaces desktop
+$p-block-outer: 70px
+$p-block-inner: 50px
+$m-element-text: 25px
+$m-element-item: 30px
+$m-element-block: 40px
+
+//Spaces tablet
+$p-block-outer-tab: 60px
+$p-block-inner-tab: 40px
+$m-element-text-tab: 20px
+$m-element-item-tab: 25px
+$m-element-block-tab: 40px
+
+//Spaces mobile
+$p-block-outer-mob: 50px
+$p-block-inner-mob: 40px
+$m-element-text-mob: 15px
+$m-element-item-mob: 20px
+$m-element-block-mob: 40px
+
+@mixin margins($type)
+  @include media-breakpoint-down(sm)
+    @if $type == b-outer
+      padding: $p-block-outer-mob 0
+    @else if $type == b-inner
+      padding: $p-block-inner-mob
+    @else if $type == e-text
+      margin-top: $m-element-text-mob
+    @else if $type == e-item
+      margin-top: $m-element-item-mob
+    @else if $type == e-block
+      margin-top: $m-element-block-mob
+
+  @include media-breakpoint-only(md)
+    @if $type == b-outer
+      padding: $p-block-outer-tab 0
+    @else if $type == b-inner
+      padding: $p-block-inner-tab
+    @else if $type == e-text
+      margin-top: $m-element-text-tab
+    @else if $type == e-item
+      margin-top: $m-element-item-tab
+    @else if $type == e-block
+      margin-top: $m-element-block-tab
+
+  @include media-breakpoint-up(lg)
+    @if $type == b-outer
+      padding: $p-block-outer 0
+    @else if $type == b-inner
+      padding: $p-block-inner
+    @else if $type == e-text
+      margin-top: $m-element-text
+    @else if $type == e-item
+      margin-top: $m-element-item
+    @else if $type == e-block
+      margin-top: $m-element-block
