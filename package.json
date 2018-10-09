@@ -1,0 +1,42 @@
+{
+  "name": "vtswet.loc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "browser-sync": "browser-sync start -p \"vtswet.loc/\" -f \"wp-content/themes/vt/*.php, wp-content/themes/vt/**/*.php, wp-content/themes/vt/public/**/*.js, wp-content/themes/vt/public/**/*.css, wp-content/themes/vt/*.css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avonavi232/vtswet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Avonavi232/vtswet/issues"
+  },
+  "homepage": "https://github.com/Avonavi232/vtswet#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "browser-sync": "^2.18.13",
+    "concurrently": "^3.6.0",
+    "es6-symbol": "^3.1.1",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-babel": "^7.0.0",
+    "gulp-imagemin": "^3.3.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.2.2",
+    "gulp-rigger": "^0.5.8",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-watch": "^4.3.11",
+    "imagemin-pngquant": "^5.0.1",
+    "rimraf": "^2.6.1",
+    "babel-polyfill": "^6.26.0"
+  }
+}
