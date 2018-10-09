@@ -14,7 +14,6 @@
     global $elements;
     foreach ($elements as $el){ ?>
         <div class="sidebar__item">
-            <i class="fa fa-share" aria-hidden="true"></i>
             <?php echo $el?>
         </div>
     <?php }
@@ -28,7 +27,6 @@
             $query->the_post();?>
 
                 <div class="sidebar__item">
-                    <i class="fa fa-share" aria-hidden="true"></i>
                     <a href="<?php the_permalink() ?>"><?php the_title() ?></a>
                 </div>
 

@@ -37,6 +37,7 @@ function register_post_types(){
 		'has_archive'         => false,
 		'rewrite'             => true,
 		'query_var'           => true,
+		'publicly_queryable'  => false
 	) );
 
 	/*Страница Новостей - записи*/

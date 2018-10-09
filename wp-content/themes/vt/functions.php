@@ -49,16 +49,19 @@ remove_action( 'wp_head', 'wp_resource_hints', 2 );
 
 /**  OptionTree  */
 add_filter( 'ot_theme_mode', '__return_true' );
-require( trailingslashit( get_template_directory() ) . 'option-tree/ot-loader.php' );
+
+include_once 'option-tree/ot-loader.php';
+
 add_filter( 'ot_show_new_layout', '__return_false' );
 function theme_options_parent($parent){
     $parent = '';
     return $parent;
 }
+
 add_filter('ot_theme_options_parent_slug', 'theme_options_parent', 20);
-require get_template_directory() . '/functions/vt-meta-boxes.php';
-require get_template_directory() . '/functions/vt-theme-options.php';
-/**  OptionTree  КОНЕЦ*/
+include_once 'functions/vt-meta-boxes.php';
+include_once 'functions/vt-theme-options.php';
+/**  OptionTree */
 
 if ( ! function_exists( 'vt_setup' ) ) :
 	/**
@@ -133,17 +136,6 @@ endif;
 add_action( 'after_setup_theme', 'vt_setup' );
 
 
-//Enqueueing statics
-include_once 'modules/enqueue.php';
-
-
-
-
-/**
- * Register widget area.
- *
- * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
- */
 function vt_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'Sidebar', 'vt' ),
@@ -163,8 +155,14 @@ function theme_register_nav_menu() {
     register_nav_menu( 'main_menu', 'Main Menu' );
 }
 
-/*Регистрация кастомных типово постов*/
+/*CPT registration*/
 include_once 'modules/cpt.php';
+
+//Enqueueing statics
+include_once 'modules/enqueue.php';
+
+/*Bootstrap 4 Nav Walker Class*/
+require_once('modules/bs4_nav_walker.php');
 
 
 
